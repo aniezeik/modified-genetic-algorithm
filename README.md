@@ -49,10 +49,10 @@ A *pdf report* is also part of this repository. It details the implementation de
 
 
 ### Important notation to consider in the code base:
-M = Number of RUs
-N = Number of UEs
-K = Number of RBs
-T = Number of TTIs (which is 1 in this simulation)
+M = Number of RUs  
+N = Number of UEs  
+K = Number of RBs  
+T = Number of TTIs (which is 1 in this simulation)  
 
 
 ## Requirements
@@ -63,5 +63,6 @@ The only requirements are numpy and matplotlib
 [1] F. Kooshki, M. A. Rahman, M. M. Mowla, A. G. Armada, and A. Flizikowski, “Efficient radio resource
 management for future 6g mobile networks: A cell-less approach,” IEEE Networking Letters, vol. 5,
 no. 2, pp. 95–99, 2023.
+
 
 
