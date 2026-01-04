@@ -1,4 +1,4 @@
-# Modified Genetic Algorithm for Cell-Free Resource Management in 6G Networks
+# Radio Resource Management for 6G Networks: A Cell less Approach
 
 This repository implements the research paper by Kooshki et al.[1]. The code implements a modified genetic algorithm which is used to optimize scheduling and resource management in cell-free mobile networks, resulting in improved system capacity for both indoor and outdoor environments when compared with legacy cellular scheduler. 
 
@@ -64,6 +64,7 @@ The only requirements are numpy and matplotlib
 [1] F. Kooshki, M. A. Rahman, M. M. Mowla, A. G. Armada, and A. Flizikowski, “Efficient radio resource
 management for future 6g mobile networks: A cell-less approach,” IEEE Networking Letters, vol. 5,
 no. 2, pp. 95–99, 2023.
+
 
 
 
