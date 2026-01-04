@@ -1,6 +1,6 @@
-# Modified Genetic Algorithm for Cell-Free Network Resource Management
+# Modified Genetic Algorithm for Cell-Free Resource Management in 6G Networks
 
-This repository implements the research paper by Kooshki et al.[1]. The code implements a modified genetic algorithm (MGA) which is used to optimize scheduling and resource management in cell-free networks, resulting in improved system capacity for both indoor and outdoor environments when compared with legacy cellular scheduler. 
+This repository implements the research paper by Kooshki et al.[1]. The code implements a modified genetic algorithm which is used to optimize scheduling and resource management in cell-free mobile networks, resulting in improved system capacity for both indoor and outdoor environments when compared with legacy cellular scheduler. 
 
 
 ## To run the simulation
@@ -13,7 +13,7 @@ python genetic_algorithm.py
 
 ### Expected Output
 
-The simulation generates two cumulative distribution function (CDF) charts that show the system capacity improvements for:
+The simulation generates two CDF charts that show the system capacity improvements for:
 - Indoor environment for the different number of RU and UE combinations.
 - Outdoor(umi - urban micro) environment for the different number of RU and UE combinations.
 
@@ -37,13 +37,13 @@ This module handles the radio propagation modeling. It contains:
 - Reference Signal Received Power (RSRP) derivation.
 
 ### `genetic_algorithm.py`
-This module, which is the core of the simulations contains the modifier genetic algorithm  and the legacy scheduling implementation. It contains different functions which are listed below:
+This module, which is the core of the simulations contains the modified genetic algorithm  and the legacy scheduling implementation. It contains different functions which are listed below:
 - Fitness function calculation
 - Initial population generation
 - Roulette wheel selection
 - Single-point crossover 
 - Adaptive mutation
-- Legacy round-robin baseline for comparison
+- Legacy round-robin for comparison
 - Main simulation definition
 
 A *pdf report* is also part of this repository. It details the implementation design decisions and also gives answers to the questions as part of the assignment.
@@ -64,6 +64,7 @@ The only requirements are numpy and matplotlib
 [1] F. Kooshki, M. A. Rahman, M. M. Mowla, A. G. Armada, and A. Flizikowski, “Efficient radio resource
 management for future 6g mobile networks: A cell-less approach,” IEEE Networking Letters, vol. 5,
 no. 2, pp. 95–99, 2023.
+
 
 
 
