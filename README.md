@@ -5,8 +5,9 @@ This repository implements the research paper by Kooshki et al.[1]. The code imp
 
 ## To run the simulation
 
-To run the simulation:  
+ 
 git clone https://github.com/aniezeik/modified-genetic-algorithm.git  
+cd modified-genetic-algorithm  
 python genetic_algorithm.py
 
 
@@ -63,6 +64,7 @@ The only requirements are numpy and matplotlib
 [1] F. Kooshki, M. A. Rahman, M. M. Mowla, A. G. Armada, and A. Flizikowski, “Efficient radio resource
 management for future 6g mobile networks: A cell-less approach,” IEEE Networking Letters, vol. 5,
 no. 2, pp. 95–99, 2023.
+
 
 
 
