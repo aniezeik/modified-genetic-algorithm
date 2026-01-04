@@ -414,8 +414,6 @@ if __name__ == "__main__":
         "umi": {},
         "indoor": {}
     }
-    import time
-    start_time = time.time()
     
     # Main loop over environments, RU and UE configurations, and seeds
     for env, cfg in config.ENV_CONFIG.items():
@@ -482,8 +480,6 @@ if __name__ == "__main__":
                 # --- Store gain for this seed ---
                 system_capacity_improvement[env][key].append(capacity_improvement)
                 
-    end_time = time.time()
-    print(f"Total execution time: {end_time - start_time} seconds")
 
 # --- Plot CDFs of capacity improvements ---
 #for env in system_capacity_improvement.keys():
@@ -525,6 +521,7 @@ for env_idx, env in enumerate(system_capacity_improvement.keys()):
     plt.legend(fontsize=10, loc='best')
 plt.tight_layout()
 plt.show()
+
 
 
 
